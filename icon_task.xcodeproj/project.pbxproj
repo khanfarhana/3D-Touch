@@ -12,12 +12,15 @@
 		BB007319260917E200B95F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB007317260917E200B95F9B /* Main.storyboard */; };
 		BB00731B260917E300B95F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB00731A260917E300B95F9B /* Assets.xcassets */; };
 		BB00731E260917E300B95F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB00731C260917E300B95F9B /* LaunchScreen.storyboard */; };
-		BB00732D26091C7800B95F9B /* pichu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB00732726091C7800B95F9B /* pichu@2x.png */; };
-		BB00732E26091C7800B95F9B /* raichu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB00732826091C7800B95F9B /* raichu@3x.png */; };
-		BB00732F26091C7800B95F9B /* raichu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB00732926091C7800B95F9B /* raichu@2x.png */; };
-		BB00733026091C7800B95F9B /* pichu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB00732A26091C7800B95F9B /* pichu@3x.png */; };
-		BB00733126091C7800B95F9B /* pikachu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB00732B26091C7800B95F9B /* pikachu@3x.png */; };
-		BB00733226091C7800B95F9B /* pikachu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB00732C26091C7800B95F9B /* pikachu@2x.png */; };
+		BB6B3ACA26504CC000B4167B /* netflix@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3AC126504CC000B4167B /* netflix@2x.png */; };
+		BB6B3ACB26504CC000B4167B /* tiktok.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3AC226504CC000B4167B /* tiktok.png */; };
+		BB6B3ACC26504CC000B4167B /* tiktok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3AC326504CC000B4167B /* tiktok@2x.png */; };
+		BB6B3ACD26504CC000B4167B /* photos.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3AC426504CC000B4167B /* photos.png */; };
+		BB6B3ACE26504CC000B4167B /* netflix@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3AC526504CC000B4167B /* netflix@3x.png */; };
+		BB6B3ACF26504CC000B4167B /* netflix.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3AC626504CC000B4167B /* netflix.png */; };
+		BB6B3AD026504CC000B4167B /* photos@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3AC726504CC000B4167B /* photos@3x.png */; };
+		BB6B3AD126504CC000B4167B /* photos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3AC826504CC000B4167B /* photos@2x.png */; };
+		BB6B3AD226504CC000B4167B /* tiktok@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3AC926504CC000B4167B /* tiktok@3x.png */; };
 		BBCD3BEA265047FC00884C4A /* google@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCD3BE7265047FC00884C4A /* google@2x.png */; };
 		BBCD3BEB265047FC00884C4A /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCD3BE8265047FC00884C4A /* google.png */; };
 		BBCD3BEC265047FC00884C4A /* google@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCD3BE9265047FC00884C4A /* google@3x.png */; };
@@ -31,12 +34,15 @@
 		BB00731A260917E300B95F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB00731D260917E300B95F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB00731F260917E300B95F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB00732726091C7800B95F9B /* pichu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pichu@2x.png"; sourceTree = "<group>"; };
-		BB00732826091C7800B95F9B /* raichu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raichu@3x.png"; sourceTree = "<group>"; };
-		BB00732926091C7800B95F9B /* raichu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raichu@2x.png"; sourceTree = "<group>"; };
-		BB00732A26091C7800B95F9B /* pichu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pichu@3x.png"; sourceTree = "<group>"; };
-		BB00732B26091C7800B95F9B /* pikachu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pikachu@3x.png"; sourceTree = "<group>"; };
-		BB00732C26091C7800B95F9B /* pikachu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pikachu@2x.png"; sourceTree = "<group>"; };
+		BB6B3AC126504CC000B4167B /* netflix@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "netflix@2x.png"; sourceTree = "<group>"; };
+		BB6B3AC226504CC000B4167B /* tiktok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiktok.png; sourceTree = "<group>"; };
+		BB6B3AC326504CC000B4167B /* tiktok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiktok@2x.png"; sourceTree = "<group>"; };
+		BB6B3AC426504CC000B4167B /* photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos.png; sourceTree = "<group>"; };
+		BB6B3AC526504CC000B4167B /* netflix@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "netflix@3x.png"; sourceTree = "<group>"; };
+		BB6B3AC626504CC000B4167B /* netflix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = netflix.png; sourceTree = "<group>"; };
+		BB6B3AC726504CC000B4167B /* photos@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photos@3x.png"; sourceTree = "<group>"; };
+		BB6B3AC826504CC000B4167B /* photos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photos@2x.png"; sourceTree = "<group>"; };
+		BB6B3AC926504CC000B4167B /* tiktok@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiktok@3x.png"; sourceTree = "<group>"; };
 		BBCD3BE7265047FC00884C4A /* google@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google@2x.png"; sourceTree = "<group>"; };
 		BBCD3BE8265047FC00884C4A /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
 		BBCD3BE9265047FC00884C4A /* google@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google@3x.png"; sourceTree = "<group>"; };
@@ -86,15 +92,18 @@
 		BB00732626091C7800B95F9B /* changeIcon */ = {
 			isa = PBXGroup;
 			children = (
-				BB00732726091C7800B95F9B /* pichu@2x.png */,
-				BB00732826091C7800B95F9B /* raichu@3x.png */,
-				BB00732926091C7800B95F9B /* raichu@2x.png */,
-				BB00732A26091C7800B95F9B /* pichu@3x.png */,
-				BB00732B26091C7800B95F9B /* pikachu@3x.png */,
+				BB6B3AC626504CC000B4167B /* netflix.png */,
+				BB6B3AC126504CC000B4167B /* netflix@2x.png */,
+				BB6B3AC526504CC000B4167B /* netflix@3x.png */,
+				BB6B3AC426504CC000B4167B /* photos.png */,
+				BB6B3AC826504CC000B4167B /* photos@2x.png */,
+				BB6B3AC726504CC000B4167B /* photos@3x.png */,
+				BB6B3AC226504CC000B4167B /* tiktok.png */,
+				BB6B3AC326504CC000B4167B /* tiktok@2x.png */,
+				BB6B3AC926504CC000B4167B /* tiktok@3x.png */,
 				BBCD3BE8265047FC00884C4A /* google.png */,
 				BBCD3BE7265047FC00884C4A /* google@2x.png */,
 				BBCD3BE9265047FC00884C4A /* google@3x.png */,
-				BB00732C26091C7800B95F9B /* pikachu@2x.png */,
 			);
 			path = changeIcon;
 			sourceTree = "<group>";
@@ -156,18 +165,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB00732F26091C7800B95F9B /* raichu@2x.png in Resources */,
 				BBCD3BEA265047FC00884C4A /* google@2x.png in Resources */,
 				BBCD3BEB265047FC00884C4A /* google.png in Resources */,
-				BB00733126091C7800B95F9B /* pikachu@3x.png in Resources */,
 				BBCD3BEC265047FC00884C4A /* google@3x.png in Resources */,
+				BB6B3AD026504CC000B4167B /* photos@3x.png in Resources */,
 				BB00731E260917E300B95F9B /* LaunchScreen.storyboard in Resources */,
-				BB00733026091C7800B95F9B /* pichu@3x.png in Resources */,
+				BB6B3ACA26504CC000B4167B /* netflix@2x.png in Resources */,
+				BB6B3ACE26504CC000B4167B /* netflix@3x.png in Resources */,
+				BB6B3ACB26504CC000B4167B /* tiktok.png in Resources */,
+				BB6B3AD126504CC000B4167B /* photos@2x.png in Resources */,
+				BB6B3ACF26504CC000B4167B /* netflix.png in Resources */,
 				BB00731B260917E300B95F9B /* Assets.xcassets in Resources */,
-				BB00733226091C7800B95F9B /* pikachu@2x.png in Resources */,
-				BB00732D26091C7800B95F9B /* pichu@2x.png in Resources */,
+				BB6B3ACD26504CC000B4167B /* photos.png in Resources */,
+				BB6B3ACC26504CC000B4167B /* tiktok@2x.png in Resources */,
+				BB6B3AD226504CC000B4167B /* tiktok@3x.png in Resources */,
 				BB007319260917E200B95F9B /* Main.storyboard in Resources */,
-				BB00732E26091C7800B95F9B /* raichu@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +340,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = icon_task/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,6 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = icon_task/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

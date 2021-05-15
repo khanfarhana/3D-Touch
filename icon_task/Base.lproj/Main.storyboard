@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -16,48 +17,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rha-D5-N21">
-                                <rect key="frame" x="157" y="144" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="H7G-lM-fUa"/>
-                                    <constraint firstAttribute="height" constant="100" id="HrE-WE-kt3"/>
-                                </constraints>
-                                <state key="normal" image="pichu.png"/>
-                                <connections>
-                                    <action selector="pichuButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WRD-sB-DZF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulT-Ne-bCc">
-                                <rect key="frame" x="168.5" y="294" width="77.5" height="72"/>
-                                <state key="normal" image="raichu.png"/>
-                                <connections>
-                                    <action selector="raichuButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XZY-gY-pcR"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAc-t4-UEb">
-                                <rect key="frame" x="157" y="416" width="100" height="100"/>
-                                <color key="backgroundColor" red="0.97954252577319589" green="0.97954252577319589" blue="0.97954252577319589" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="2de-gc-fmD"/>
-                                    <constraint firstAttribute="width" constant="100" id="nrV-ao-VGr"/>
-                                </constraints>
-                                <state key="normal" image="pikachu.png"/>
-                                <connections>
-                                    <action selector="pikachuButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NdL-JU-IeQ"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="rRc-UI-Psh">
+                                <rect key="frame" x="122" y="172.5" width="170.5" height="551.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rha-D5-N21">
+                                        <rect key="frame" x="0.0" y="0.0" width="170.5" height="170.5"/>
+                                        <color key="backgroundColor" red="0.7607843876" green="0.95686274770000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" image="netflix.png"/>
+                                        <connections>
+                                            <action selector="netflixButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nQx-hu-1st"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulT-Ne-bCc">
+                                        <rect key="frame" x="0.0" y="190.5" width="170.5" height="170.5"/>
+                                        <color key="backgroundColor" red="0.98823523520000001" green="0.87843137979999997" blue="0.63529413940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" image="tiktok.png"/>
+                                        <connections>
+                                            <action selector="tiktokButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oD8-LM-WGg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAc-t4-UEb">
+                                        <rect key="frame" x="0.0" y="381" width="170.5" height="170.5"/>
+                                        <color key="backgroundColor" red="0.76470589639999997" green="0.9098039269" blue="0.88235294819999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" image="photos.png"/>
+                                        <connections>
+                                            <action selector="photosButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jKQ-Pb-Mss"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ulT-Ne-bCc" firstAttribute="top" secondItem="rha-D5-N21" secondAttribute="bottom" constant="50" id="TSx-IX-i2c"/>
-                            <constraint firstItem="wAc-t4-UEb" firstAttribute="centerX" secondItem="ulT-Ne-bCc" secondAttribute="centerX" id="a7H-6n-9gV"/>
-                            <constraint firstItem="rha-D5-N21" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="dX7-h0-aS9"/>
-                            <constraint firstItem="ulT-Ne-bCc" firstAttribute="centerX" secondItem="rha-D5-N21" secondAttribute="centerX" id="hVD-7W-ets"/>
-                            <constraint firstItem="rha-D5-N21" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hgs-4H-w9p"/>
-                            <constraint firstItem="ulT-Ne-bCc" firstAttribute="width" secondItem="rha-D5-N21" secondAttribute="width" multiplier="0.775" id="ihf-rU-8OY"/>
-                            <constraint firstItem="ulT-Ne-bCc" firstAttribute="height" secondItem="rha-D5-N21" secondAttribute="height" multiplier="0.72" id="oTE-jv-BuC"/>
-                            <constraint firstItem="wAc-t4-UEb" firstAttribute="top" secondItem="ulT-Ne-bCc" secondAttribute="bottom" constant="50" id="ukf-6O-df5"/>
+                            <constraint firstItem="rRc-UI-Psh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NsN-Ha-rc6"/>
+                            <constraint firstItem="rRc-UI-Psh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bAa-kl-PUZ"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -67,9 +62,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="pichu.png" width="74.5" height="93"/>
-        <image name="pikachu.png" width="533" height="478.5"/>
-        <image name="raichu.png" width="77.5" height="72"/>
+        <image name="netflix.png" width="170.5" height="170.5"/>
+        <image name="photos.png" width="50" height="50"/>
+        <image name="tiktok.png" width="33" height="33"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

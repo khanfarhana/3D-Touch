@@ -14,18 +14,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     // change app icon to "pichu"
-    @IBAction func pichuButtonDidTap(_ sender: UIButton) {
-        changeIcon(to: "pichu")
+    @IBAction func netflixButtonDidTap(_ sender: UIButton) {
+        changeIcon(to: "netflix")
     }
 
     // change app icon to "pikachu"
-    @IBAction func pikachuButtonDidTap(_ sender: UIButton) {
-      changeIcon(to: "pikachu")
+    @IBAction func tiktokButtonDidTap(_ sender: UIButton) {
+      changeIcon(to: "tiktok")
     }
 
     // change app icon to "raichu"
-    @IBAction func raichuButtonDidTap(_ sender: UIButton) {
-      changeIcon(to: "raichu")
+    @IBAction func photosButtonDidTap(_ sender: UIButton) {
+      changeIcon(to: "photos")
     }
     func changeIcon(to iconName: String) {
       // 1

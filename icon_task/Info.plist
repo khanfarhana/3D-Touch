@@ -2,10 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>3D Touch</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIcons</key>
 	<dict>
 		<key>CFBundleAlternateIcons</key>
 		<dict>
+			<key>UIPrerenderedIcon</key>
+			<string>NO</string>
 			<key>google</key>
 			<dict>
 				<key>CFBundleIconFiles</key>
@@ -13,42 +21,40 @@
 					<string>google</string>
 				</array>
 			</dict>
-			<key>pikachu</key>
+			<key>netflix</key>
 			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>netflix</string>
+				</array>
 				<key>UIPrerenderedIcon</key>
 				<string>NO</string>
-				<key>CFBundleIconFiles</key>
-				<array>
-					<string>pikachu</string>
-				</array>
 			</dict>
-			<key>raichu</key>
+			<key>photos</key>
 			<dict>
 				<key>CFBundleIconFiles</key>
 				<array>
-					<string>raichu</string>
+					<string>photos</string>
 				</array>
 			</dict>
-			<key>UIPrerenderedIcon</key>
-			<string>NO</string>
-			<key>pichu</key>
+			<key>tiktok</key>
 			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>tiktok</string>
+				</array>
 				<key>UIPrerenderedIcon</key>
 				<string>NO</string>
-				<key>CFBundleIconFiles</key>
-				<array>
-					<string>pichu</string>
-				</array>
 			</dict>
 		</dict>
 		<key>CFBundlePrimaryIcon</key>
 		<dict>
-			<key>CFBundleIconName</key>
-			<string></string>
 			<key>CFBundleIconFiles</key>
 			<array>
 				<string></string>
 			</array>
+			<key>CFBundleIconName</key>
+			<string></string>
 			<key>UIPrerenderedIcon</key>
 			<false/>
 		</dict>
@@ -60,16 +66,12 @@
 			<array>
 				<string></string>
 			</array>
-			<key>UINewsstandBindingType</key>
-			<string>UINewsstandBindingTypeMagazine</string>
 			<key>UINewsstandBindingEdge</key>
 			<string>UINewsstandBindingEdgeLeft</string>
+			<key>UINewsstandBindingType</key>
+			<string>UINewsstandBindingTypeMagazine</string>
 		</dict>
 	</dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>$(DEVELOPMENT_LANGUAGE)</string>
-	<key>CFBundleExecutable</key>
-	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -97,8 +99,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
